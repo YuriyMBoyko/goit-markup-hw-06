@@ -749,15 +749,12 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-left: 92px;
-    padding-right: 92px;
-  }
-
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
+    padding-left: 108px;
+    padding-right: 108px;
     column-gap: 24px;
   }
 }
@@ -769,6 +766,8 @@ main {
 
   .footer-container {
     flex-wrap: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
     column-gap: 80px;
   }
 }
