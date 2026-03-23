@@ -776,7 +776,7 @@ main {
 
   .footer-container {
     flex-wrap: nowrap;
-    column-gap: 80px;
+    column-gap: 0;
   }
 }
 
@@ -791,7 +791,7 @@ main {
 
   @media (min-width: 1158px) {
     .footer-logo-wrapper {
-      margin-right: 40px
+      margin-right: 120px
     }
   }
 }
