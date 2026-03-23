@@ -757,9 +757,14 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    padding-left: 108px;
-    padding-right: 108px;
     column-gap: 24px;
+  }
+
+  @media (max-width: 1157px) {
+    .footer-container {
+      padding-left: 108px;
+      padding-right: 108px;
+    }
   }
 }
 
@@ -770,8 +775,6 @@ main {
 
   .footer-container {
     flex-wrap: nowrap;
-    padding-left: 16px;
-    padding-right: 16px;
     column-gap: 80px;
   }
 }
